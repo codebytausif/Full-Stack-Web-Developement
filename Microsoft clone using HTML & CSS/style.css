@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 18px;
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 108px;
+    margin-top: -3px;
+}
+
+.left-side {
+    display: flex;
+    gap: 25px;
+    margin-left: 55px;
+}
+
+.left-side a {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+    font-size: 13px;
+}
+
+
+.left-side a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+.right-side {
+    display: flex;
+    gap: 25px;
+    margin-right: 55px;
+}
+
+.right-side a {
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+    font-size: 13px;
+}
+
+.right-side a:hover {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    background: url(assets/Background.avif) no-repeat center center/cover;
+    overflow: clip;
+    background-color: #4a4a4a;
+    cursor: pointer;
+
+}
+
+.banner-content {
+    color: #fff;
+    max-width: 360px;
+    margin-left: 100px;
+}
+
+.banner-content h2 {
+    font-size: 1.8125rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    line-height: 34px;
+
+}
+
+.banner-content p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.banner-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #0067b8;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    box-sizing: border-box;
+    margin-top: 40px;
+    gap: 25px;
+}
+
+.card {
+    width: 23%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background: white;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 0px 1.5rem 0px 1.5rem;
+}
+
+.p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0px 1.5rem 0px 1.5rem;
+}
+
+.card-btn {
+    display: inline-block;
+    padding: 10px 19px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #0067b8;
+    color: white;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    margin: 10px 25px 25px 25px;
+    cursor: pointer;
+
+
+}
+
+.btn-1 {
+    margin-top: 30px;
+}
+
+.btn-2 {
+    margin-top: 69.5px;
+}
+
+.btn-3 {
+    margin-top: 93.5px;
+}
+
+
+
+.background-one {
+    height: 90vh;
+    width: 90%;
+    background: url(assets/bb.avif) no-repeat center center/cover;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 45px;
+    cursor: pointer;
+
+}
+
+.card1 {
+    padding: 3rem;
+    background: white;
+    width: 40%;
+}
+
+.business-heading {
+    margin-top: 72px;
+    margin-bottom: -87px;
+    margin-left: 63px;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.btn-4 {
+    margin-top: 71px;
+}
+
+.btn-5 {
+    margin-top: 127px;
+}
+
+.btn-6 {
+    margin-top: 18px;
+    text-align: left;
+}
+
+.btn-7 {
+    margin-top: 63px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    background: #f2f2f2;
+    margin: 0 auto;
+
+}
+
+.footer-column {
+    width: 16%;
+    padding: 0 12px;
+    zoom: 1;
+    display: block;
+    float: left;
+    min-height: 1px;
+}
+
+.footer-column h4 {
+    font-size: 15px;
+    color: #616161;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 36px 0 4px;
+}
+
+.footer-column li {
+    list-style: none;
+    padding: 8px 0;
+    cursor: pointer;
+    color: #3d3d3de6;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.footer-column li:hover {
+    list-style: none;
+    padding: 8px 0;
+    cursor: pointer;
+    color: #000000e6;
+    font-size: 11px;
+    line-height: 16px;
+    text-decoration: underline;
+}
+
+.copywrite {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5%;
+    background: #f2f2f2;
+    margin: 0 auto;
+}
+
+.left-copy li {
+    font-size: 11px;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 24px;
+    color: #616161;
+    /* float: left; */
+    white-space: nowrap;
+    list-style: none;
+
+}
+
+.left-copy li:hover {
+    font-size: 11px;
+    text-decoration: underline;
+    cursor: pointer;
+    line-height: 16px;
+    display: inline-block;
+    padding-right: 24px;
+    padding-bottom: 40px;
+    color: #616161;
+    /* float: left; */
+    white-space: nowrap;
+    list-style: none;
+
+}
+
+.non {
+    cursor: auto !important;
+    text-decoration: none !important;
+}
+
+.non:hover {
+    cursor: auto !important;
+    text-decoration: none !important;
+}
+.hamburger {
+    display: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
+/* Responsiveness */
+@media (max-width: 1000px ) {
+    .card-section{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+     .background-one {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+        .card1 {
+            width: 100%;
+            padding: 20px;
+        }
+    
+        .business-heading {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 0;
+            font-size: 24px;
+        }
+    
+        .btn-4 {
+            margin-top: 20px;
+        }
+    
+        .btn-5 {
+            margin-top: 20px;
+        }
+    
+        .btn-6 {
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .btn-7 {
+            margin-top: 20px;
+        }
+
+}
